@@ -2,13 +2,7 @@
 Machine Learning and Artificial Intelligence
 
 ## Tutorials
-<ul>
-
-  <li>
-    <a href="https://www.w3schools.com/ai/default.asp">W3Schools</a>
-  </li>
-
-</ul>
+- [W3Schools](https://www.w3schools.com/ai/default.asp)
 
 ## Tensorflow Documentation
-<a href="https://www.tensorflow.org/install?hl=es-419">How to install Tensorflow?</a>
+[How to install Tensorflow?](https://www.tensorflow.org/install?hl=es-419)
