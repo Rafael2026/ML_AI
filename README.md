@@ -14,3 +14,6 @@ Machine Learning and Artificial Intelligence
 
 ## Tensorflow API
 Google courses: [link](https://developers.google.com/machine-learning/crash-course)
+
+## Microsoft Azure
+Artificial intelligence (AI) vs. machine learning (ML): [link](https://azure.microsoft.com/en-us/solutions/ai/artificial-intelligence-vs-machine-learning/#process)
