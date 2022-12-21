@@ -17,3 +17,17 @@ Google courses: [link](https://developers.google.com/machine-learning/crash-cour
 
 ## Microsoft Azure
 Artificial intelligence (AI) vs. machine learning (ML): [link](https://azure.microsoft.com/en-us/solutions/ai/artificial-intelligence-vs-machine-learning/#process)
+
+## OpenAI
+- ChatGPT: [link](https://openai.com/blog/chatgpt/)
+- API: [link](https://openai.com/blog/openai-api/)
+- Xataka: [link](https://www.xataka.com/basics/chatgpt-que-como-usarlo-que-puedes-hacer-este-chat-inteligencia-artificial)
+
+## Environment
+Safeguard the environment: [link](https://blogthinkbig.com/inteligencia-artificial-salvar-medioambiente)
+
+## Smart Business
+How to run a smart company?: [link](https://www.techedgegroup.com/es/inteligencia-artificial)
+
+## AI translator
+DeepL Translate (The world's most accurate translator): [link](https://www.deepl.com/translator)
