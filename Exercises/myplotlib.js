@@ -16,12 +16,13 @@ function XYPlotter(id) {
   }
 
   // Transform XY Function
-  this.transformXY = function () {
-    this.ctx.transform(1, 0, 0, -1, 0, this.canvas.height)
+  this.transformXY = function() {
+    this.ctx.transform(1, 0, 0, -1, 0, this.canvas.height);
   }
 
   // Pot Points Function
   this.plotPoints = function (n, xArr, yArr, color, radius = 3) {
+    
     for (let i = 0; i < n; i++) {
       this.ctx.fillStyle = color;
       this.ctx.beginPath();
@@ -29,5 +30,4 @@ function XYPlotter(id) {
       this.ctx.fill();
     }
   }
-
-} // End Plotter Object
+}

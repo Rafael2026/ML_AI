@@ -15,7 +15,6 @@ for (var y = 0; y < array.length; y++) {
     } else {
       matriz += array[y][x] + " | ";
     }
-    
   }
 }
 
@@ -24,7 +23,7 @@ document.getElementsByClassName("algebra")[0].innerHTML = matriz;
 myPlotter.transformXY();
 
 // Create random XY Points
-numPoints = 500; 
+numPoints = 500;
 
 const xPoints = Array(numPoints).fill(0).map(function() {
   return Math.random() * myPlotter.xMax;
@@ -34,9 +33,9 @@ const yPoints = Array(numPoints).fill(0).map(function() {
   return Math.random() * myPlotter.yMax;
 });
 
-myPlotter.plotPoints(numPoints, xPoints, yPoints, "blue"); // Plot the Points
+myPlotter.plotPoints(numPoints, xPoints, yPoints, "rgb(0, 0, 255)"); // Plot the Points
 
-myPlotter.plotLine(0, 0, myPlotter.xMax, myPlotter.yMax, "red"); // Plot a Line
+myPlotter.plotLine(0, 0, myPlotter.xMax, myPlotter.yMax, "rgb(255, 0, 0)"); // Plot a Line
 
 // Generate values
 for (var x = 0; x <= 10; x += 1) {
@@ -50,7 +49,6 @@ var data = [{
   y: yValues,
   mode: "lines"
 }];
-
 
 var layout = { title: "Slope=" + slope + " Intercept=" + intercept }; // Define Layout
 
