@@ -1,34 +1,11 @@
 import useLLM from "usellm";
 import { useState } from "react";
 
-/*function App() {
-
-  const llm = useLLM({ serviceUrl: "https://usellm.org/api/llm" });
-
-  return (
-    <div>
-      <button
-        onClick={async () => {
-          await llm.chat({
-            messages: [{ role: "user", content: "Who are you?" }],
-            stream: true,
-            onStream: ({ message }) => console.log(message),
-          });
-        }}
-      >
-        Chat
-      </button>
-    </div>
-  );
-}
-
-export default App;*/
-
-export default function Demo() {
+function App() {
 
   const llm = useLLM({ serviceUrl: "https://usellm.org/api/llm" });
   const [result, setResult] = useState("");
- 
+
   async function handleClick() {
     try {
       await llm.chat({
@@ -47,3 +24,5 @@ export default function Demo() {
     </div>
   );
 }
+
+export default App;
