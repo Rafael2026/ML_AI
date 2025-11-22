@@ -1,5 +1,5 @@
 var array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
-var matriz = "| ";
+var matriz = "";
 var slope = 1.2;
 var intercept = 7;
 var xValues = [];
@@ -11,9 +11,9 @@ for (var y = 0; y < array.length; y++) {
   for (var x = 0; x < array[y].length; x++) {
 
     if (x == (array[y].length - 1)) {
-      matriz += array[y][x] + " |<br>| ";
+      matriz += " | " + array[y][x] + " |<br>";
     } else {
-      matriz += array[y][x] + " | ";
+      matriz += " | " + array[y][x];
     }
   }
 }

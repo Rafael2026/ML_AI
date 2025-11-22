@@ -1,17 +1,15 @@
-// Initialize Image Classifier with MobileNet.
-const classifier =  ml5.imageClassifier('MobileNet');
+// A variable to hold the image we want to classify and initialize Image Classifier with MobileNet.
+const classifier = ml5.imageClassifier("MobileNet");
+const img = document.getElementById("myImage");
 
-classifier.classify(document.getElementById("image"), gotResult);
+classifier.classify(img, gotResult);
 
-// Function to run when results arrive
-function gotResult(error, results) {
+// Callback function when classification has finished
+function gotResult(results) {
 
-  const element = document.getElementById("result");
+  // Display the results
+  let label = results[0].label;
+  let confidence = (results[0].confidence * 100).toFixed(2);
 
-  if (error) {
-    element.innerHTML = error;
-  } else {
-    let num = results[0].confidence * 100;
-    element.innerHTML = results[0].label + "<br>Confidence: " + num.toFixed(2) + "%";
-  }
+  document.getElementById("myResult").innerHTML = label + "<br>Confidence: " + confidence + "%";
 }
